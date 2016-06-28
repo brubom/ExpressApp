@@ -1,4 +1,4 @@
-
+"use strict";
 var express = require('express');
 var routes = require('./routes/index');
 var http = require('http');
@@ -7,9 +7,7 @@ var app = express();
 // all environments
 
 
-const MAX = 5;
 
-let a = "1";
 
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
